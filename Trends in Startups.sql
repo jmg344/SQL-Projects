@@ -17,7 +17,7 @@ SELECT category, AVG(valuation) FROM startups GROUP BY category;
 SELECT category, ROUND(AVG(valuation), 2) FROM startups GROUP BY category;
 -- Returns the average valuation for each category rounded by 2 decimal places
 SELECT category, ROUND(AVG(valuation), 2) FROM startups GROUP BY category ORDER BY 2 DESC;
--- Returns the average valuation for each category rounded by 2 decimal places in order from higest to lowest
+-- Returns the average valuation for each category rounded by 2 decimal places in order from highest to lowest
 SELECT category, COUNT(*) FROM startups GROUP BY category;
 -- Returns the categories and how many companies each category has
 SELECT category, COUNT(*) FROM startups GROUP BY category 
